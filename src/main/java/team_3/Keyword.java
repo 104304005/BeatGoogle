@@ -3,9 +3,9 @@ package team_3;
 public class Keyword
 {
 	public String name;
-	public Double weight;
+	public int weight;
 
-	public Keyword(String name, Double weight)
+	public Keyword(String name, int weight)
 	{
 		this.name = name;
 		this.weight = weight;
