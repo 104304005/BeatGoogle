@@ -10,7 +10,7 @@ public class WebNode {
 	public double nodeScore;
 	public int depth;
 
-	public WebNode(WebPage webpage) {
+	public WebNode(WebPage webPage) {
 		this.webPage = webPage;
 		this.children = new ArrayList<>();
 	}
